@@ -1,0 +1,54 @@
+[
+    {
+        "card_number": "0915931042",
+        "till": 1,
+        "receipt_number": "001-001-000000012",
+        "subtotal": 2.8,
+        "taxes": [],
+        "total": 2.8,
+        "payment_method": "efectivo",
+        "date": 1554795659677,
+        "cashier": {
+            "id": 1,
+            "name": "AvaPos"
+        },
+        "line_items": [
+            {
+                "id": "114361547416809000",
+                "name": "Agua 600cc",
+                "categories": [],
+                "discounts": [],
+                "price": 0.5,
+                "quantity": 1,
+                "modifiers": []
+            },
+            {
+                "id": "114361547416809000",
+                "name": "Agua 600cc",
+                "categories": [],
+                "discounts": [],
+                "price": 0.5,
+                "quantity": 1,
+                "modifiers": []
+            },
+            {
+                "id": "114361547416809000",
+                "name": "Agua 600cc",
+                "categories": [],
+                "discounts": [],
+                "price": 0.5,
+                "quantity": 1,
+                "modifiers": []
+            },
+            {
+                "id": "1545837261",
+                "name": "Americano 12oz",
+                "categories": [],
+                "discounts": [],
+                "price": 1.3,
+                "quantity": 1,
+                "modifiers": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+{
+    "pos_session": {
+        "id": 74420290,
+        "object": "pos_session",
+        "hash": "cd1ed232854435b353c8e3ae2471ff0a",
+        "date_created": 1558533102,
+        "date_updated": 1558533102,
+        "status": {
+            "id": 1,
+            "name": "Active"
+        }
+    },
+    "vendor": {
+        "object": "vendor",
+        "id": 107660,
+        "point_of_sale": {
+            "object": "pointofsale",
+            "id": 5,
+            "name": "Manual",
+            "status": {
+                "id": 1,
+                "name": "Active"
+            }
+        },
+        "modules": {
+            "object": "collection",
+            "data": [
+                {
+                    "object": "middlewaremodule",
+                    "id": 2,
+                    "name": "Quick Pay"
+                }
+            ],
+            "page_size": 1,
+            "count": 1,
+            "page": 1
+        }
+    },
+    "api_key": {
+        "workstation_identifier": null
+    }
+}

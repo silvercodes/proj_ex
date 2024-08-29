@@ -1,0 +1,284 @@
+{
+    "pos_session": {
+        "pos_session_id": "74420290",
+        "hash": "cd1ed232854435b353c8e3ae2471ff0a",
+        "status": {
+            "id": 1,
+            "name": "Active"
+        },
+        "card": null,
+        "card_third_party": null,
+        "token": null
+    },
+    "user": {
+        "email_address": "jose@spoonity.com",
+        "default_billing_profile": null,
+        "birthdate": 1559174400,
+        "address": "205 Bolton St",
+        "phone_number": "",
+        "cedula": "0915931042",
+        "clover_id": "6822",
+        "first_name": "Jose",
+        "last_name": "Antonio",
+        "is_employee": false,
+        "id": 6822,
+        "birthday": "2019-05-30"
+    },
+    "reload": {
+        "amount": 0,
+        "threshold": 0,
+        "billing_profile": null
+    },
+    "favorite": null,
+    "last_visit": null,
+    "loyalty_balance": {
+        "data": [
+            {
+                "amount": 13,
+                "currency": {
+                    "id": 1922,
+                    "name": "Cafes",
+                    "code": ""
+                },
+                "expiring": {
+                    "data": [],
+                    "page_size": 0,
+                    "count": 0,
+                    "page": 1
+                }
+            },
+            {
+                "amount": 2,
+                "currency": {
+                    "id": 1925,
+                    "name": "Panes",
+                    "code": ""
+                },
+                "expiring": {
+                    "data": [],
+                    "page_size": 0,
+                    "count": 0,
+                    "page": 1
+                }
+            },
+            {
+                "amount": 0,
+                "currency": {
+                    "id": 2059,
+                    "name": "Xopladolares",
+                    "code": ""
+                },
+                "expiring": {
+                    "data": [],
+                    "page_size": 0,
+                    "count": 0,
+                    "page": 1
+                }
+            }
+        ],
+        "page_size": 3,
+        "count": 3,
+        "page": 1
+    },
+    "rules": {
+        "earning": {
+            "data": [
+                {
+                    "catalogs": [
+                        {
+                            "id": 13358489,
+                            "identifier": "_Pan",
+                            "name": "Pan",
+                            "type": {
+                                "id": 1,
+                                "name": "product"
+                            }
+                        }
+                    ],
+                    "id": 2537,
+                    "currency": {
+                        "id": 1925,
+                        "name": "Panes",
+                        "code": ""
+                    },
+                    "name": "Puntos por Pan",
+                    "perk_type": {
+                        "id": 2,
+                        "name": "Points per item"
+                    },
+                    "round_policy": {
+                        "id": 1,
+                        "name": "None"
+                    },
+                    "award_amount": 1,
+                    "max_award_amount": 0,
+                    "award_parent": false,
+                    "start_date": 1549161918,
+                    "end_date": 2114294400,
+                    "status": {
+                        "id": 1,
+                        "name": null
+                    },
+                    "catalog": {
+                        "id": 13358489,
+                        "identifier": "_Pan",
+                        "name": "Pan",
+                        "type": {
+                            "id": 1,
+                            "name": "product"
+                        }
+                    }
+                },
+                {
+                    "catalogs": [
+                        {
+                            "id": 13358312,
+                            "identifier": "_Cafe",
+                            "name": "Cafe",
+                            "type": {
+                                "id": 3,
+                                "name": "discount"
+                            }
+                        }
+                    ],
+                    "id": 2534,
+                    "currency": {
+                        "id": 1922,
+                        "name": "Cafes",
+                        "code": ""
+                    },
+                    "name": "Puntos por cafe",
+                    "perk_type": {
+                        "id": 2,
+                        "name": "Points per item"
+                    },
+                    "round_policy": {
+                        "id": 4,
+                        "name": "Floor"
+                    },
+                    "award_amount": 1,
+                    "max_award_amount": 0,
+                    "award_parent": false,
+                    "start_date": 1549161753,
+                    "end_date": 2114294400,
+                    "status": {
+                        "id": 1,
+                        "name": null
+                    },
+                    "catalog": {
+                        "id": 13358312,
+                        "identifier": "_Cafe",
+                        "name": "Cafe",
+                        "type": {
+                            "id": 3,
+                            "name": "discount"
+                        }
+                    }
+                }
+            ]
+        },
+        "spending": {
+            "data": [
+                {
+                    "template": {
+                        "id": 1,
+                        "name": "ITEM"
+                    },
+                    "id": 1994,
+                    "currency": {
+                        "id": 1922,
+                        "name": "Cafes",
+                        "code": ""
+                    },
+                    "name": "Cafe Gratis",
+                    "description": null,
+                    "summary": null,
+                    "cost": 10,
+                    "start_date": 1549161962,
+                    "end_date": 2114294400,
+                    "available": 1,
+                    "progress": 3,
+                    "group": null,
+                    "catalog": {
+                        "id": 13358303,
+                        "identifier": " discount_CafeGratis",
+                        "name": "Cafe Gratis",
+                        "type": {
+                            "id": 3,
+                            "name": "discount"
+                        }
+                    }
+                },
+                {
+                    "template": {
+                        "id": 1,
+                        "name": "ITEM"
+                    },
+                    "id": 1997,
+                    "currency": {
+                        "id": 1925,
+                        "name": "Panes",
+                        "code": ""
+                    },
+                    "name": "Pan Gratis",
+                    "description": null,
+                    "summary": null,
+                    "cost": 10,
+                    "start_date": 1549162002,
+                    "end_date": 2114294400,
+                    "available": 0,
+                    "progress": 2,
+                    "group": null,
+                    "catalog": {
+                        "id": 13358486,
+                        "identifier": "PanGratis",
+                        "name": "Pan Gratis",
+                        "type": {
+                            "id": 3,
+                            "name": "discount"
+                        }
+                    }
+                }
+            ],
+            "tier": {
+                "count": 1,
+                "current": {
+                    "name": "Xopla",
+                    "since": 1549164259,
+                    "type": {
+                        "id": 1,
+                        "name": "Normal",
+                        "ranking": 1
+                    }
+                },
+                "next": {
+                    "name": "",
+                    "amount": "",
+                    "progress": 0,
+                    "summary": "",
+                    "description": ""
+                },
+                "all": {
+                    "vendor_tier_changed": 1549164259,
+                    "tier_immunity_days": 0,
+                    "days_remaining": null,
+                    "data": []
+                }
+            }
+        }
+    },
+    "quick_pay_balance": {
+        "amount": 0.25,
+        "currency": {
+            "id": 1928,
+            "name": "US Dollar",
+            "code": "USD"
+        },
+        "expiring": {
+            "data": [],
+            "page_size": 0,
+            "count": 0,
+            "page": 1
+        }
+    }
+}

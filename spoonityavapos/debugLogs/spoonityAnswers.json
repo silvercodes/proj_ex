@@ -1,0 +1,57 @@
+[
+    {
+        "reference_number": "51672445",
+        "success": "true",
+        "receipt_data": {
+            "lines": [
+                "0 points added"
+            ],
+            "points": [
+                {
+                    "currency": null,
+                    "amount": 0,
+                    "expiryDate": null
+                }
+            ],
+            "user": {
+                "id": "6822",
+                "balances": [
+                    {
+                        "id": 1922,
+                        "currency": "Cafes",
+                        "balance": 13,
+                        "type": "Loyalty"
+                    },
+                    {
+                        "id": 1925,
+                        "currency": "Panes",
+                        "balance": 2,
+                        "type": "Loyalty"
+                    },
+                    {
+                        "id": 1928,
+                        "currency": "US Dollar",
+                        "balance": 0.25,
+                        "type": "Quick Pay"
+                    },
+                    {
+                        "id": 2059,
+                        "currency": "Xopladolares",
+                        "balance": 0,
+                        "type": "Loyalty"
+                    }
+                ]
+            }
+        },
+        "error": {
+            "errors": [
+                {
+                    "reason": 0,
+                    "message": "Invoice has already been processed"
+                }
+            ],
+            "code": 0,
+            "reference_id": 0
+        }
+    }
+]
